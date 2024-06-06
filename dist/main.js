@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nmoment().format();\nconsole.log(\"Hello!\");\nvar datetime = moment().startOf(\"day\").fromNow();\nconsole.log(datetime);\nvar evens = [1, 2, 3];\nvar odds = evens.map(function (v) {\n  return v + 1;\n});\nvar nums = evens.map(function (v, i) {\n  return v + i;\n});\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nmoment().format();\nconsole.log(\"Hello!\");\nvar datetime = moment().startOf(\"day\").fromNow();\nconsole.log(datetime);\nvar evens = [1, 2, 3];\nvar odds = evens.map(function (v) {\n  return v + 1;\n});\nvar nums = evens.map(function (v, i) {\n  return v + i;\n});\nvar word1 = \"testing\";\nvar word2 = \"123\";\nconsole.log(word1 + word2);\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
